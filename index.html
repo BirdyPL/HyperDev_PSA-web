@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hyperdev — AI tools & automations for small businesses</title>
+  <meta name="description" content="Hyperdev P.S.A. helps small businesses work faster and smarter with AI assistants, business automations, and the Mosthy platform." />
+  <meta property="og:title" content="Hyperdev — AI tools & automations for small businesses" />
+  <meta property="og:description" content="AI, automation, and practical digital tools for SMBs." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/hyperdev-logo.jpeg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <!-- Ambient background -->
+  <div class="bg-fx" aria-hidden="true">
+    <span class="orb v"></span>
+    <span class="orb a"></span>
+  </div>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header" id="header">
+    <div class="container">
+      <nav class="nav" id="nav">
+        <a class="brand" href="#top" aria-label="Hyperdev home">
+          <img src="assets/hyperdev-logo.jpeg" alt="Hyperdev logo" />
+          <span>Hyperdev <span class="psa">P.S.A.</span></span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="#what" data-i18n="nav.what">What we do</a></li>
+          <li><a href="#services" data-i18n="nav.services">Services</a></li>
+          <li><a href="#integrations" data-i18n="nav.integrations">Integrations</a></li>
+          <li><a href="#cases" data-i18n="nav.cases">Case studies</a></li>
+          <li><a href="#about" data-i18n="nav.about">About</a></li>
+        </ul>
+        <div class="nav-actions">
+          <div class="lang-switch" role="group" aria-label="Language">
+            <button data-lang="en" class="active">EN</button>
+            <button data-lang="pl">PL</button>
+          </div>
+          <button class="icon-btn theme-toggle" id="themeToggle" aria-label="Toggle theme">
+            <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+            <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M19 5l-1.5 1.5M6.5 17.5L5 19"/></svg>
+          </button>
+          <a href="#contact" class="btn btn-primary btn-sm" data-i18n="nav.cta">Book a call</a>
+          <button class="icon-btn nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ============ 1. HERO ============ -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow reveal"><span class="dot"></span><span data-i18n="hero.eyebrow">AI-first for small business</span></span>
+          <h1 class="reveal" data-delay="1"><span data-i18n="hero.title">AI tools and automations for</span> <span class="grad-text" data-i18n="hero.title_accent">small businesses.</span></h1>
+          <p class="lede reveal" data-delay="2" data-i18n="hero.sub">We help companies work faster, smarter, and with less chaos — using AI, automation, and practical digital tools.</p>
+          <div class="hero-cta reveal" data-delay="3">
+            <a href="#contact" class="btn btn-primary"><span data-i18n="hero.cta_primary">Book a free consultation</span> <span class="arrow">→</span></a>
+            <a href="#what" class="btn btn-ghost"><span data-i18n="hero.cta_secondary">See how it works</span> <span class="arrow">→</span></a>
+          </div>
+          <div class="hero-trust reveal" data-delay="4">
+            <div class="stat"><b>40%</b><span data-i18n="hero.stat1">less manual work</span></div>
+            <span class="sep"></span>
+            <div class="stat"><b>3×</b><span data-i18n="hero.stat2">faster responses</span></div>
+            <span class="sep"></span>
+            <div class="stat"><b>1</b><span data-i18n="hero.stat3">platform for everything</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" data-delay="2" aria-hidden="true">
+          <span class="hero-ring"></span>
+          <span class="hero-ring r2"></span>
+          <span class="hero-ring r3"></span>
+          <img class="hero-spiral" src="assets/spiral.png" alt="" />
+          <div class="hero-card c1">
+            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l2.4 5.6L20 9l-4.5 3.6L17 18l-5-3-5 3 1.5-5.4L4 9l5.6-1.4Z"/></svg></span>
+            <div><strong data-i18n="hero.card1_t">AI Assistant</strong><small data-i18n="hero.card1_s">Drafting reply…</small></div>
+          </div>
+          <div class="hero-card c2">
+            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h16M4 12h16M4 17h10"/></svg></span>
+            <div><strong data-i18n="hero.card2_t">Automation</strong><small data-i18n="hero.card2_s">Invoice processed ✓</small></div>
+          </div>
+          <div class="hero-card c3">
+            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 3v18h18"/><path d="M7 14l3-3 3 2 4-5"/></svg></span>
+            <div><strong data-i18n="hero.card3_t">+27% output</strong><small data-i18n="hero.card3_s">this quarter</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 2. WHAT WE DO ============ -->
+    <section id="what">
+      <div class="container">
+        <div class="section-head center reveal">
+          <span class="eyebrow"><span class="dot"></span><span data-i18n="what.eyebrow">What we do</span></span>
+          <h2 class="title" data-i18n="what.title">Three ways we move your business forward</h2>
+        </div>
+        <div class="cards-3">
+          <article class="card reveal">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2l2.4 5.6L20 9l-4.5 3.6L17 18l-5-3-5 3 1.5-5.4L4 9l5.6-1.4Z"/></svg></div>
+            <h3 data-i18n="what.c1_t">AI for Business</h3>
+            <p data-i18n="what.c1_p">Practical AI assistants, chatbots, document intelligence, and smart workflows that reduce manual work and improve response times.</p>
+            <a href="#svc-ai" class="link-cta"><span data-i18n="common.learn">Learn more</span> <span class="arrow">→</span></a>
+          </article>
+          <article class="card reveal" data-delay="1">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M10 4H4v6M14 20h6v-6"/><path d="M20 4l-7.5 7.5M4 20l7.5-7.5"/></svg></div>
+            <h3 data-i18n="what.c2_t">Business Automations</h3>
+            <p data-i18n="what.c2_p">Automated processes that eliminate repetitive tasks, streamline operations, and give owners more control.</p>
+            <a href="#svc-auto" class="link-cta"><span data-i18n="common.learn">Learn more</span> <span class="arrow">→</span></a>
+          </article>
+          <article class="card reveal" data-delay="2">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="8" height="8" rx="2"/><rect x="13" y="3" width="8" height="8" rx="2"/><rect x="3" y="13" width="8" height="8" rx="2"/><rect x="13" y="13" width="8" height="8" rx="2"/></svg></div>
+            <h3 data-i18n="what.c3_t">Mosthy Platform</h3>
+            <p data-i18n="what.c3_p">A complete operating system for SMBs — team, projects, CRM, finance, documents, and AI in one place.</p>
+            <a href="#svc-mosthy" class="link-cta"><span data-i18n="common.learn">Learn more</span> <span class="arrow">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3. VALUE / OUTCOMES ============ -->
+    <section class="value" id="value">
+      <div class="container">
+        <div class="section-head center reveal">
+          <span class="eyebrow"><span class="dot"></span><span data-i18n="value.eyebrow">Why it matters</span></span>
+          <h2 class="title" data-i18n="value.title">Outcomes, not features</h2>
+          <p class="lede" data-i18n="value.sub">Real results that owners and teams feel from week one.</p>
+        </div>
+        <div class="value-grid">
+          <div class="value-item reveal"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg></span><div><h4 data-i18n="value.v1_t">Save time on repetitive tasks</h4><p data-i18n="value.v1_p">Hand the busywork to automation and AI.</p></div></div>
+          <div class="value-item reveal" data-delay="1"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg></span><div><h4 data-i18n="value.v2_t">Reduce manual work by up to 40%</h4><p data-i18n="value.v2_p">Fewer clicks, fewer errors, more done.</p></div></div>
+          <div class="value-item reveal" data-delay="2"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg></span><div><h4 data-i18n="value.v3_t">Improve customer response time</h4><p data-i18n="value.v3_p">Answer faster, win more trust.</p></div></div>
+          <div class="value-item reveal"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg></span><div><h4 data-i18n="value.v4_t">Increase team productivity</h4><p data-i18n="value.v4_p">Let people focus on work that counts.</p></div></div>
+          <div class="value-item reveal" data-delay="1"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg></span><div><h4 data-i18n="value.v5_t">Automate what your team hates doing</h4><p data-i18n="value.v5_p">Goodbye to the tedious, manual grind.</p></div></div>
+          <div class="value-item reveal" data-delay="2"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg></span><div><h4 data-i18n="value.v6_t">Get clarity and control</h4><p data-i18n="value.v6_p">See your whole business at a glance.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4. SERVICES ============ -->
+    <section id="services">
+      <div class="container">
+        <div class="section-head center reveal">
+          <span class="eyebrow"><span class="dot"></span><span data-i18n="services.eyebrow">Services</span></span>
+          <h2 class="title" data-i18n="services.title">Modular building blocks for your business</h2>
+          <p class="lede" data-i18n="services.sub">Pick what you need today — add the rest as you grow.</p>
+        </div>
+        <div class="services-grid">
+          <!-- A -->
+          <article class="service reveal" id="svc-ai">
+            <div class="tag"><span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l2.4 5.6L20 9l-4.5 3.6L17 18l-5-3-5 3 1.5-5.4L4 9l5.6-1.4Z"/></svg></span><span data-i18n="services.a_tag">A · Core offering</span></div>
+            <h3 data-i18n="services.a_title">AI for Business</h3>
+            <ul class="feat">
+              <li data-i18n="services.a_f1">AI Assistants for Sales, HR, Operations</li>
+              <li data-i18n="services.a_f2">AI Chatbots for customer service</li>
+              <li data-i18n="services.a_f3">AI Document Intelligence (OCR, summaries, extraction)</li>
+              <li data-i18n="services.a_f4">AI Reporting & Insights</li>
+              <li data-i18n="services.a_f5">AI Email Automation</li>
+              <li data-i18n="services.a_f6">AI Knowledge Bases trained on your data</li>
+            </ul>
+            <p class="value-line" data-i18n="services.a_value">Turn hours of manual work into seconds.</p>
+          </article>
+          <!-- B -->
+          <article class="service reveal" data-delay="1" id="svc-auto">
+            <div class="tag"><span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 4H4v6M14 20h6v-6"/><path d="M20 4l-7.5 7.5M4 20l7.5-7.5"/></svg></span><span data-i18n="services.b_tag">B · Automations</span></div>
+            <h3 data-i18n="services.b_title">Business Automations</h3>
+            <ul class="feat">
+              <li data-i18n="services.b_f1">Automated document generation</li>
+              <li data-i18n="services.b_f2">Automated reminders, tasks, approvals</li>
+              <li data-i18n="services.b_f3">Automated onboarding / offboarding</li>
+              <li data-i18n="services.b_f4">Automated sales follow-ups</li>
+              <li data-i18n="services.b_f5">Automated invoice processing</li>
+              <li data-i18n="services.b_f6">Automated reporting</li>
+            </ul>
+            <div class="chips">
+              <span class="chip">BaseLinker</span><span class="chip">Shopify</span><span class="chip">WooCommerce</span><span class="chip">Enova365</span><span class="chip">Subiekt</span><span class="chip">Optima</span><span class="chip">Google Workspace</span><span class="chip">Microsoft 365</span>
+            </div>
+          </article>
+          <!-- C -->
+          <article class="service reveal" id="svc-mosthy">
+            <div class="tag"><span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="8" height="8" rx="2"/><rect x="13" y="3" width="8" height="8" rx="2"/><rect x="3" y="13" width="8" height="8" rx="2"/><rect x="13" y="13" width="8" height="8" rx="2"/></svg></span><span data-i18n="services.c_tag">C · Platform</span></div>
+            <h3 data-i18n="services.c_title">Mosthy Platform</h3>
+            <ul class="feat">
+              <li data-i18n="services.c_f1">Team & HR</li>
+              <li data-i18n="services.c_f2">Projects & Tasks</li>
+              <li data-i18n="services.c_f3">CRM & Sales</li>
+              <li data-i18n="services.c_f4">Finance & Documents</li>
+              <li data-i18n="services.c_f5">AI Assistant</li>
+              <li data-i18n="services.c_f6">Automations & Integrations</li>
+            </ul>
+            <p class="value-line" data-i18n="services.c_value">One tool to run your entire small business.</p>
+          </article>
+          <!-- D -->
+          <article class="service reveal" data-delay="1">
+            <div class="tag"><span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg></span><span data-i18n="services.d_tag">D · Implementation</span></div>
+            <h3 data-i18n="services.d_title">Implementation & Onboarding</h3>
+            <ul class="feat">
+              <li data-i18n="services.d_f1">Process mapping</li>
+              <li data-i18n="services.d_f2">Data migration</li>
+              <li data-i18n="services.d_f3">Workflow setup</li>
+              <li data-i18n="services.d_f4">Team training</li>
+              <li data-i18n="services.d_f5">Integrations setup</li>
+            </ul>
+            <p class="value-line" data-i18n="services.d_value">We help you get everything running smoothly from day one.</p>
+          </article>
+          <!-- E -->
+          <article class="service reveal">
+            <div class="tag"><span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 7l3-3 3 3-3 3M10 17l-3 3-3-3 3-3M7 7l10 10"/></svg></span><span data-i18n="services.e_tag">E · Custom</span></div>
+            <h3 data-i18n="services.e_title">Custom Solutions</h3>
+            <ul class="feat">
+              <li data-i18n="services.e_f1">Custom tools for unique business needs</li>
+              <li data-i18n="services.e_f2">Extensions for Mosthy</li>
+              <li data-i18n="services.e_f3">Industry-specific automations</li>
+              <li data-i18n="services.e_f4">Integrations with niche systems</li>
+            </ul>
+            <p class="value-line" data-i18n="services.e_value">If your process is unique — we build a tool that fits it.</p>
+          </article>
+          <!-- F -->
+          <article class="service reveal" data-delay="1">
+            <div class="tag"><span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.1h6c0-.8.4-1.6 1-2.1A7 7 0 0 0 12 2Z"/></svg></span><span data-i18n="services.f_tag">F · Consulting</span></div>
+            <h3 data-i18n="services.f_title">Consulting for SMB Owners</h3>
+            <ul class="feat">
+              <li data-i18n="services.f_f1">Digital transformation roadmap</li>
+              <li data-i18n="services.f_f2">AI adoption plan</li>
+              <li data-i18n="services.f_f3">Tool selection</li>
+              <li data-i18n="services.f_f4">Process optimization</li>
+              <li data-i18n="services.f_f5">Cost reduction through automation</li>
+            </ul>
+            <p class="value-line" data-i18n="services.f_value">We help you choose what actually works — without overpaying.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 5. INTEGRATIONS ============ -->
+    <section id="integrations">
+      <div class="container">
+        <div class="section-head center reveal">
+          <span class="eyebrow"><span class="dot"></span><span data-i18n="intg.eyebrow">Integrations</span></span>
+          <h2 class="title" data-i18n="intg.title">Plays nicely with your stack</h2>
+        </div>
+        <div class="integrations-groups">
+          <div class="intg-group reveal">
+            <h4 data-i18n="intg.g1">E-commerce</h4>
+            <div class="intg-list">
+              <div class="intg-pill"><span class="logo">BL</span>BaseLinker</div>
+              <div class="intg-pill"><span class="logo">Sh</span>Shopify</div>
+              <div class="intg-pill"><span class="logo">Wo</span>WooCommerce</div>
+            </div>
+          </div>
+          <div class="intg-group reveal" data-delay="1">
+            <h4 data-i18n="intg.g2">ERP</h4>
+            <div class="intg-list">
+              <div class="intg-pill"><span class="logo">En</span>Enova365</div>
+              <div class="intg-pill"><span class="logo">Su</span>Subiekt</div>
+              <div class="intg-pill"><span class="logo">Op</span>Optima</div>
+            </div>
+          </div>
+          <div class="intg-group reveal" data-delay="2">
+            <h4 data-i18n="intg.g3">Office & Communication</h4>
+            <div class="intg-list">
+              <div class="intg-pill"><span class="logo">G</span>Google Workspace</div>
+              <div class="intg-pill"><span class="logo">M</span>Microsoft 365</div>
+              <div class="intg-pill"><span class="logo">Sl</span>Slack</div>
+              <div class="intg-pill"><span class="logo">Te</span>Teams</div>
+            </div>
+          </div>
+          <div class="intg-group reveal" data-delay="3">
+            <h4 data-i18n="intg.g4">CRM</h4>
+            <div class="intg-list">
+              <div class="intg-pill"><span class="logo">Hu</span>HubSpot</div>
+              <div class="intg-pill"><span class="logo">Pi</span>Pipedrive</div>
+            </div>
+          </div>
+        </div>
+        <p class="intg-note reveal" data-i18n="intg.note">We integrate with the tools you already use.</p>
+      </div>
+    </section>
+
+    <!-- ============ 6. CASE STUDIES ============ -->
+    <section id="cases">
+      <div class="container">
+        <div class="section-head center reveal">
+          <span class="eyebrow"><span class="dot"></span><span data-i18n="cases.eyebrow">Case studies</span></span>
+          <h2 class="title" data-i18n="cases.title">Results that speak for themselves</h2>
+        </div>
+        <div class="cases-grid">
+          <article class="case reveal">
+            <div class="case-top">
+              <span class="kicker" data-i18n="cases.c1_kicker">Service company · Automation</span>
+              <h3 data-i18n="cases.c1_title">Automations for a service company</h3>
+            </div>
+            <div class="case-body">
+              <div class="metrics">
+                <div class="metric"><b class="grad-text">40%</b><span data-i18n="cases.c1_m1">less manual work</span></div>
+                <div class="metric"><b class="grad-text">3×</b><span data-i18n="cases.c1_m2">faster customer response</span></div>
+              </div>
+              <ul class="outcomes">
+                <li data-i18n="cases.c1_o1">Automated onboarding</li>
+                <li data-i18n="cases.c1_o2">AI assistant for support</li>
+              </ul>
+            </div>
+          </article>
+          <article class="case reveal" data-delay="1">
+            <div class="case-top">
+              <span class="kicker" data-i18n="cases.c2_kicker">Accounting firm · AI Documents</span>
+              <h3 data-i18n="cases.c2_title">AI Document Intelligence for an accounting firm</h3>
+            </div>
+            <div class="case-body">
+              <div class="metrics">
+                <div class="metric"><b class="grad-text">80%</b><span data-i18n="cases.c2_m1">faster document processing</span></div>
+                <div class="metric"><b class="grad-text">100%</b><span data-i18n="cases.c2_m2">auto-categorized invoices</span></div>
+              </div>
+              <ul class="outcomes">
+                <li data-i18n="cases.c2_o1">Automated summaries</li>
+                <li data-i18n="cases.c2_o2">Automated invoice categorization</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+        <div class="section-head center" style="margin: 2.5rem auto 0; text-align:center;">
+          <a href="#contact" class="link-cta reveal" style="justify-content:center;"><span data-i18n="cases.more">See more case studies</span> <span class="arrow">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 7. ABOUT / TEAM ============ -->
+    <section id="about">
+      <div class="container">
+        <div class="section-head center reveal">
+          <span class="eyebrow"><span class="dot"></span><span data-i18n="about.eyebrow">About us</span></span>
+          <h2 class="title" data-i18n="about.title">The people behind Hyperdev</h2>
+        </div>
+        <div class="team-grid">
+          <article class="member reveal">
+            <div class="photo"><img src="assets/maciej.jpg" alt="Maciej Ostaszewski" /></div>
+            <div class="info">
+              <span class="role" data-i18n="about.m1_role">Founder & CEO</span>
+              <h3>Maciej Ostaszewski</h3>
+              <p data-i18n="about.m1_bio">Product, AI, operations. Background in digital transformation, automation, and building scalable systems.</p>
+              <a class="icon-btn" href="https://www.linkedin.com/company/28911915/" target="_blank" rel="noopener" aria-label="Maciej on LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1-.02-5ZM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.76-2.05C20.4 8.65 22 10.6 22 14v7h-4v-6.2c0-1.48-.03-3.38-2.06-3.38-2.06 0-2.38 1.6-2.38 3.27V21H9z"/></svg></a>
+            </div>
+          </article>
+          <article class="member reveal" data-delay="1">
+            <div class="photo placeholder"><span>A</span></div>
+            <div class="info">
+              <span class="role" data-i18n="about.m2_role">Co-owner</span>
+              <h3>Agata</h3>
+              <p data-i18n="about.m2_bio">Governance, finance, strategic oversight. Silent partner ensuring stability and long-term direction.</p>
+            </div>
+          </article>
+          <article class="member reveal" data-delay="2">
+            <div class="photo"><img src="assets/michal.png" alt="Michał Ptak" /></div>
+            <div class="info">
+              <span class="role" data-i18n="about.m3_role">Chief Sales & Marketing Officer</span>
+              <h3>Michał Ptak</h3>
+              <p data-i18n="about.m3_bio">GTM, sales, marketing, customer success. 15+ years leading digital transformation and commercial strategy across Europe (Samsung, Sygnity, Orange). Bridging complex technology with real business needs.</p>
+              <a class="icon-btn" href="https://www.linkedin.com/company/28911915/" target="_blank" rel="noopener" aria-label="Michał on LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1-.02-5ZM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.76-2.05C20.4 8.65 22 10.6 22 14v7h-4v-6.2c0-1.48-.03-3.38-2.06-3.38-2.06 0-2.38 1.6-2.38 3.27V21H9z"/></svg></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 8. FINAL CTA ============ -->
+    <section class="final-cta" id="contact">
+      <div class="container">
+        <div class="final-cta-inner reveal">
+          <span class="eyebrow"><span class="dot"></span><span data-i18n="final.eyebrow">Let's talk</span></span>
+          <h2 class="title"><span data-i18n="final.title">Let's build your</span> <span class="grad-text" data-i18n="final.title_accent">AI-powered business.</span></h2>
+          <p class="lede" data-i18n="final.sub">A free 30-minute consultation. No jargon, no pressure — just a clear view of what AI and automation can do for you.</p>
+          <div class="hero-cta">
+            <a href="mailto:michal.ptak@gohyperdev.com" class="btn btn-primary"><span data-i18n="final.cta">Book a free consultation</span> <span class="arrow">→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ 9. FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="#top"><img src="assets/hyperdev-logo.jpeg" alt="Hyperdev logo" /><span>Hyperdev <span class="psa">P.S.A.</span></span></a>
+          <p data-i18n="footer.tagline">AI tools and automations for small businesses. Work faster, smarter, with less chaos.</p>
+          <div class="footer-socials">
+            <a class="icon-btn" href="https://www.linkedin.com/company/28911915/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1-.02-5ZM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.76-2.05C20.4 8.65 22 10.6 22 14v7h-4v-6.2c0-1.48-.03-3.38-2.06-3.38-2.06 0-2.38 1.6-2.38 3.27V21H9z"/></svg></a>
+            <a class="icon-btn" href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 12s0-3.5-.45-5.18a2.6 2.6 0 0 0-1.83-1.84C19.05 4.5 12 4.5 12 4.5s-7.05 0-8.72.48A2.6 2.6 0 0 0 1.45 6.82C1 8.5 1 12 1 12s0 3.5.45 5.18a2.6 2.6 0 0 0 1.83 1.84C4.95 19.5 12 19.5 12 19.5s7.05 0 8.72-.48a2.6 2.6 0 0 0 1.83-1.84C23 15.5 23 12 23 12ZM9.75 15.25v-6.5l5.5 3.25Z"/></svg></a>
+            <a class="icon-btn" href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.5 8.6L23 22h-6.8l-5.3-7-6.1 7H1.7l8-9.2L1 2h7l4.8 6.3ZM17.7 20h1.7L7.4 4H5.6Z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.company">Company</h4>
+          <a href="#about" data-i18n="footer.about">About us</a>
+          <a href="#cases" data-i18n="footer.cases">Case studies</a>
+          <a href="https://ai.gohyperdev.com" target="_blank" rel="noopener" data-i18n="footer.careers">Careers</a>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.explore">Explore</h4>
+          <a href="#services" data-i18n="footer.services">Services</a>
+          <a href="#integrations" data-i18n="footer.integrations">Integrations</a>
+          <a href="#what" data-i18n="footer.platform">Mosthy platform</a>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.contact">Contact</h4>
+          <a href="mailto:michal.ptak@gohyperdev.com">michal.ptak@gohyperdev.com</a>
+          <a href="https://gohyperdev.com" target="_blank" rel="noopener">gohyperdev.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> Hyperdev P.S.A. <span data-i18n="footer.rights">All rights reserved.</span></span>
+        <div class="legal">
+          <a href="#" data-i18n="footer.privacy">Privacy</a>
+          <a href="#" data-i18n="footer.terms">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/translations.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
