@@ -40,6 +40,10 @@ window.HD_I18N = {
 
     "common.learn": "Dowiedz się więcej",
 
+    "cred.badge_t": "Tworzymy w oparciu o Claude",
+    "cred.badge_s": "Partner Anthropic · certyfikacja w toku",
+    "cred.line": "To więcej niż tworzenie w oparciu o Claude — wbudowujemy agentów AI bezpośrednio w nasze produkty, takie jak platforma Mosthy, aby aktywnie wspierały Twój zespół i Twoich klientów każdego dnia.",
+
     "value.eyebrow": "Dlaczego to ma znaczenie",
     "value.title": "Efekty, nie funkcje",
     "value.sub": "Realne rezultaty, które właściciele i zespoły odczuwają już od pierwszego tygodnia.",
@@ -137,7 +141,7 @@ window.HD_I18N = {
     "about.title": "Ludzie, którzy tworzą Hyperdev",
     "about.m1_role": "Założyciel i CEO",
     "about.m1_bio": "Produkt, AI, operacje. Doświadczenie w transformacji cyfrowej, automatyzacji i budowaniu skalowalnych systemów.",
-    "about.m2_role": "Współwłaścicielka",
+    "about.m2_role": "Dyrektor ds. Strategii",
     "about.m2_bio": "Ład korporacyjny, finanse, nadzór strategiczny. Cichy wspólnik dbający o stabilność i długofalowy kierunek.",
     "about.m3_role": "Dyrektor ds. Sprzedaży i Marketingu",
     "about.m3_bio": "GTM, sprzedaż, marketing, sukces klienta. Ponad 15 lat kierowania transformacją cyfrową i strategią handlową w Europie (Samsung, Sygnity, Orange). Łączy złożoną technologię z realnymi potrzebami biznesu.",
@@ -149,6 +153,7 @@ window.HD_I18N = {
     "final.cta": "Umów bezpłatną konsultację",
 
     "footer.tagline": "Narzędzia AI i automatyzacje dla małych firm. Działaj szybciej, mądrzej i z mniejszym chaosem.",
+    "footer.partner": "Tworzymy w oparciu o Claude · Partner Anthropic (w trakcie)",
     "footer.company": "Firma",
     "footer.about": "O nas",
     "footer.cases": "Wdrożenia",
